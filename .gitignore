@@ -1,0 +1,37 @@
+# =============== #
+# Unity Generated #
+# =============== #
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+# =============== #
+# OS Generated    #
+# =============== #
+.DS_Store
+Thumbs.db
+
+# =============== #
+# Visual Studio   #
+# =============== #
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# =============== #
+# Package Manager #
+# =============== #
+Packages/manifest.json
+Packages/packages-lock.json
+
+# =============== #
+# Build Artifacts #
+# =============== #
+*.apk
+*.aab

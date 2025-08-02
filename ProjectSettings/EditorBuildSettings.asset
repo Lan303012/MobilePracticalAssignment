@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenu.unity
+    guid: c0e761e35f8bf8444bd7e79534222000
+  - enabled: 1
+    path: Assets/Scenes/GameSelect.unity
+    guid: 32d8f1a293906c04cb7ea7eba38b18ad
+  - enabled: 1
+    path: Assets/Scenes/CountingScene.unity
+    guid: decefb40d9bcb254fb7a6824d62bca27
+  - enabled: 1
+    path: Assets/Scenes/NumberRecognition.unity
+    guid: 849526e6b43e9864ea9cbe2db9a392c6
+  - enabled: 1
+    path: Assets/Scenes/MissingNumber.unity
+    guid: 89a36261888c8434fbb53ca1cde403df
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 4fe94e5395210c241aec164a845980a2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

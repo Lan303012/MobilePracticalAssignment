@@ -26,6 +26,10 @@ public class ModeManager : MonoBehaviour
     {
         modePanel.SetActive(false);
         difficultyPanel.SetActive(true);
+        CanvasGroup cg = difficultyPanel.GetComponent<CanvasGroup>();
+        if (cg != null)
+            cg.alpha = 0f;
+
         difficultyAnimator.SetTrigger("FadeIn");
     }
 
